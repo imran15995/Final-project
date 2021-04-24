@@ -1,0 +1,463 @@
+
+
+				html {
+	scroll-behavior: smooth;
+}
+
+.container {
+	padding: 0;
+	margin: 0 auto;
+}
+
+.common-title {
+	font-size: 50px;
+	color: #05208B;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+
+/* top section starts */
+
+.top-section {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.top-section .container .contact i {
+	margin-right: 3px;
+	font-size: 12px;
+	color: white;
+	width: 20px;
+	line-height: 20px;
+	text-align: center;
+	background: darkblue;
+	border-radius: 50%;
+}
+
+.top-section .container .contact a {
+	text-decoration: none;
+}
+
+.top-section .container .contact .phone {
+	padding-right: 20px;
+	transition: all linear 0.3s;
+}
+
+.top-section .container .contact .phone:hover a {
+	color: black;
+}
+
+.top-section .container .contact .phone:hover i {
+	background: black;
+}
+
+.top-section .container .contact .email {
+	transition: all linear0.3s;
+}
+
+.top-section .container .contact .email:hover a {
+	color: black;
+}
+
+.top-section .container .contact .email:hover i {
+	background: black;
+}
+
+.top-section .container button {
+	font-size: 15px;
+	font-weight: 600;
+	color: #05208B;
+	border-color: #05208B;
+	border-radius: 5px;
+	box-shadow: 0;
+	transition: all linear 0.4s;
+}
+
+.top-section .container .join {
+	margin-left: 10px;
+}
+
+.top-section .container button:hover {
+	color: white;
+	background: #05208B;
+}
+
+
+/* top section ends */
+
+
+/* navbar section starts */
+
+.navbar-section {
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
+.navbar-section {
+	background: #05208B;
+	;
+}
+
+.navbar-section .container .navbar ul {
+	padding-left: -10px !important;
+	text-align: center;
+}
+
+.navbar-section .container .navbar ul li {
+	margin-right: 15px;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.navbar-section .container .navbar ul li:after {
+	position: absolute;
+	content: '';
+	width: 0%;
+	height: 2px;
+	margin-left: 10%;
+	background: white;
+	bottom: 5px;
+	left: 0;
+	transition: all linear 0.3s;
+}
+
+.navbar-section .container .navbar ul li:hover:after {
+	position: absolute;
+	content: '';
+	width: 80%;
+	height: 2px;
+	margin-left: 10%;
+	background: white;
+}
+
+.navbar-section .container .navbar form input {
+	color: white;
+	background: #0A1E6D;
+	border: none;
+	height: 30px;
+}
+
+
+/* navbar section ends */
+
+
+/* banner part starts */
+
+.banner-part {
+	width: 100%;
+	height: auto;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	margin-bottom: 60px;
+	background: linear-gradient(to right, #57C4E5, #7983EB);
+}
+
+.banner-part .container .row h1 {
+	font-size: 50px;
+	font-weight: 700;
+	font-family: 'Poppins', sans-serif;
+	color: #05208B;
+}
+
+.banner-part .container .row p {
+	font-size: 22px;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	padding-top: 10px
+}
+
+.banner-part .container .row a.works {
+	font-size: 18px;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+	color: #05208B;
+	text-decoration: none;
+	width: 20px;
+	border: 1px solid #05208B;
+	border-radius: 10px;
+	padding: 5px 8px;
+	margin-right: 15px;
+	transition: all linear .3s;
+}
+
+.banner-part .container .row a:hover {
+	color: white;
+	background: #05208B;
+}
+
+.banner-part .container .row a.start {
+	font-size: 18px;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	background: #05208B;
+	text-decoration: none;
+	width: 20px;
+	border: 1px solid #05208B;
+	border-radius: 10px;
+	padding: 5px 8px;
+	margin-right: 15px;
+}
+
+
+/* banner part ends */
+
+
+/* about section start */
+
+.about-section .container .row .carousel-bg {
+	border-radius: 30px;
+	box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.3);
+}
+
+.about-section .container .row h1 {
+	padding-left: 10px;
+}
+
+.about-section .container .row p {
+	text-align: justify;
+	padding-top: 25px;
+	padding-left: 10px;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+	color: #8E9195;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+
+/* about section ends */
+
+
+/* step section start */
+
+.step-section {
+	width: 100%;
+	height: auto;
+	padding: 60px 0;
+	margin-top: 60px;
+	background: linear-gradient(to right, #57C4E5, #7983EB);
+}
+
+.step-section .container .row .step {
+	box-sizing: border-box;
+	margin-top: 15px;
+	padding: 50px 40px;
+	background: white;
+	transition: all linear 0.4s;
+}
+
+.step-section .container .row .step:hover {
+	background: #05208B;
+	transform: scale(1.1);
+}
+
+.step-section .container .row .step:hover h2 {
+	color: white;
+}
+
+.step-section .container .row .step:hover p {
+	color: white;
+}
+
+.step-section .container .row .step h2 {
+	color: #8E9195;
+	font-family: 'Montserrat', sans-serif;
+	font-style: 30px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.step-section .container .row .step p {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #8E9195;
+	font-family: 'Montserrat', sans-serif;
+	font-style: 20px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: justify;
+}
+
+.step-section .container .row .step button a {
+	text-transform: uppercase;
+}
+
+
+/* step section ends */
+
+
+/* team section starts */
+
+.team-section {
+	padding-bottom: 60px;
+}
+
+.team-section .container .row .teams .team {
+	background: white;
+	border-radius: 25px;
+	box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+	transition: all linear 0.4s;
+}
+
+.team-section .container .row .teams .team:hover {
+	background: #05208B;
+}
+
+.team-section .container .row .teams .team:hover p {
+	color: white;
+}
+
+.team-section .container .row .teams .team img {
+	border-top-left-radius: 24px;
+	border-top-right-radius: 24px;
+}
+
+.team-section .container .row .teams .team .name {
+	font-size: 20px;
+	font-weight: 500;
+	color: #8E9195;
+	padding-top: 50px;
+	position: relative;
+}
+
+.team-section .container .row .teams .team .desig {
+	font-size: 15px;
+	font-weight: 500;
+	color: #8E9195;
+	position: relative;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.team-section .container .row .teams .team .desig:after {
+	position: absolute;
+	content: '';
+	width: 80%;
+	padding-left: 10%;
+	height: 2px;
+	background: #8E9195;
+	bottom: -10px;
+	left: 10%;
+}
+
+.team-section .container .row .teams .team a i {
+	transition: all linear 0.3s;
+	padding: 40px 5px;
+	color: #8E9195;
+}
+
+.team-section .container .row .teams .team a i:hover {
+	color: white;
+}
+
+
+/* team section ends */
+
+
+/* gallery section start */
+
+.gallery-section {
+	padding-bottom: 60px;
+	background: linear-gradient(to right, #57C4E5, #7983EB);
+}
+
+.gallery-section .container .row .image {
+	position: relative;
+	overflow: hidden;
+}
+
+.gallery-section .container .row .overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgb(0, 0, 0, .70);
+	top: 0;
+	left: -100%;
+	transition: all linear 0.4s;
+}
+
+.gallery-section .container .row .image:hover .overlay {
+	display: block;
+	top: 0;
+	left: 0;
+}
+
+.gallery-section .container .row .overlay img {
+	padding-top: 180px;
+}
+
+.gallery-section .container .row .gallery {
+	background: #05208B;
+}
+
+
+/* gallery section ends */
+
+/* count section start */
+.count-section{
+    background: #05208B;
+}
+.count-section .container .row i{
+    font-size: 35px;
+}
+.count-section .container .row span{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.count-section .container .row p{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+/* count section ends */
+
+/* Contact section start */
+
+/* Contact section ends */
+
+
+/* media screen starts */
+
+@media only screen and (max-width: 1199px) {
+	.navbar-section .container .navbar ul li::after {
+		display: none;
+	}
+	@media only screen and (max-width: 1199px) {
+		.navbar-section .container .navbar ul li {
+			border-radius: 5px;
+			display: inline-block;
+			transition: all linear 0.4s;
+		}
+		@media only screen and (max-width: 1199px) {
+			.navbar-section .container .navbar ul a {
+				display: inline-block;
+			}
+			@media only screen and (max-width: 1199px) {
+				.navbar-section .container .navbar ul li:hover a {
+					padding: 8px;
+					border-radius: 5px;
+					display: inline-block;
+					background: #0A1E6D;
+				}
+				@media only screen and (max-width: 1199px) {
+					.navbar-section .container form {
+						padding: 20px 0;
+						width: 50%;
+						margin: 0 auto;
+					}
+				}
+				@media only screen and (max-width: 1199px) {
+					.navbar-section .container form input {
+						padding: 20px;
+					}
+				}
+				/* media screen ends */
+
